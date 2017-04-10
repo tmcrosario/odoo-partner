@@ -8,4 +8,4 @@ Translation Status
 ----
 
 <img alt="TMC Rosario" src="http://www.tmcrosario.gov.ar/images/tmc_nuevo.png" />
-**TMC Rosario** - www.tmcrosario.gob.ar
+www.tmcrosario.gob.ar
