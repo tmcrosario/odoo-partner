@@ -2,7 +2,7 @@
 Odoo Partner and Contact related addons.
 
 ## Translation Status
-[![Transifex Status](https://www.transifex.com/projects/p/tmcrosario-partner-10-0/chart/image_png)](https://www.transifex.com/projects/p/tmcrosario-partner-10-0)
+[![Transifex Status](https://www.transifex.com/tmcrosario/partner-10/)](https://www.transifex.com/tmcrosario/partner-10/)
 
 ## License
 
