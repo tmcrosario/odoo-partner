@@ -1,0 +1,44 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * partner_municipal
+# 
+# Translators:
+# Liso <lisandrogallo@tmcrosario.gov.ar>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-17 15:58+0000\n"
+"PO-Revision-Date: 2017-04-17 15:58+0000\n"
+"Last-Translator: Liso <lisandrogallo@tmcrosario.gov.ar>, 2017\n"
+"Language-Team: Spanish (Argentina) (https://www.transifex.com/tmcrosario/teams/73663/es_AR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es_AR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: partner_municipal
+#: model:ir.ui.view,arch_db:partner_municipal.view_partner_municipal_form
+msgid "DREI"
+msgstr ""
+
+#. module: partner_municipal
+#: model:ir.model.fields,field_description:partner_municipal.field_res_partner_drei_ids
+msgid "Drei ids"
+msgstr "Cuentas de DREI"
+
+#. module: partner_municipal
+#: model:ir.model.fields,field_description:partner_municipal.field_res_partner_merchant
+msgid "Merchant"
+msgstr "Comerciante"
+
+#. module: partner_municipal
+#: model:ir.ui.view,arch_db:partner_municipal.view_partner_municipal_form
+msgid "Municipal"
+msgstr ""
+
+#. module: partner_municipal
+#: model:ir.model,name:partner_municipal.model_res_partner
+msgid "Partner"
+msgstr ""

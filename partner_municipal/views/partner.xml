@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- FORM VIEW -->
+    <record id="view_partner_municipal_form" model="ir.ui.view">
+        <field name="name">res.partner.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field eval="90" name="priority" />
+        <field name="arch" type="xml">
+            <page name="internal_notes" position="before">
+                <page name="municipal" string="Municipal">
+                    <group name="drei" string="DREI">
+                        <field name="drei_ids" nolabel="1" />
+                    </group>
+                </page>
+            </page>
+        </field>
+    </record>
+
+</odoo>
