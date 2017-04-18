@@ -2,7 +2,12 @@
 
 {
     'name': 'Municipal Partner Extension',
+    'summary': 'Add municipal taxes information to partner.',
     'version': '10.0.1.0.0',
+    'category': 'Contacts',
+    'website': 'https://www.tmcrosario.gob.ar',
+    'author': 'Tribunal Municipal de Cuentas - Municipalidad de Rosario',
+    'license': 'AGPL-3',
     'depends': [
         'municipal'
     ],
@@ -12,6 +17,5 @@
     'demo': [],
     'installable': True,
     'application': True,
-    'auto_install': False,
     'qweb': [],
 }
