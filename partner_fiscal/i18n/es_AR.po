@@ -1,0 +1,66 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * partner_fiscal
+# 
+# Translators:
+# Liso <lisandrogallo@tmcrosario.gov.ar>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-18 13:15+0000\n"
+"PO-Revision-Date: 2017-04-18 13:15+0000\n"
+"Last-Translator: Liso <lisandrogallo@tmcrosario.gov.ar>, 2017\n"
+"Language-Team: Spanish (Argentina) (https://www.transifex.com/tmcrosario/teams/73663/es_AR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es_AR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: partner_fiscal
+#: model:ir.ui.view,arch_db:partner_fiscal.view_partner_form
+msgid "AFIP"
+msgstr ""
+
+#. module: partner_fiscal
+#: model:ir.model.fields,field_description:partner_fiscal.field_res_partner_cuit
+msgid "CUIT"
+msgstr ""
+
+#. module: partner_fiscal
+#: model:ir.model.fields,field_description:partner_fiscal.field_res_partner_fiscal_situation
+msgid "Fiscal situation"
+msgstr "Situación Fiscal"
+
+#. module: partner_fiscal
+#: model:ir.model.fields,help:partner_fiscal.field_res_partner_cuit
+msgid "Format: XX-XXXXXXXX-X"
+msgstr "Formato: XX-XXXXXXXX-X"
+
+#. module: partner_fiscal
+#: code:addons/partner_fiscal/models/partner.py:41
+#, python-format
+msgid "Invalid CUIT"
+msgstr "CUIT Inválido"
+
+#. module: partner_fiscal
+#: selection:res.partner,fiscal_situation:0
+msgid "Monotributista"
+msgstr ""
+
+#. module: partner_fiscal
+#: model:ir.model,name:partner_fiscal.model_res_partner
+msgid "Partner"
+msgstr ""
+
+#. module: partner_fiscal
+#: selection:res.partner,fiscal_situation:0
+msgid "Responsable Inscripto"
+msgstr ""
+
+#. module: partner_fiscal
+#: code:addons/partner_fiscal/models/partner.py:41
+#, python-format
+msgid "Valid format: XX-XXXXXXXX-X"
+msgstr "Formato válido: XX-XXXXXXXX-X"
