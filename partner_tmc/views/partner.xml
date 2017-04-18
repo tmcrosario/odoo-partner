@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- FORM VIEW -->
+    <record id="view_partner_form" model="ir.ui.view">
+        <field name="name">res.partner.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='is_company']" position="after">
+                <field name="supplier" invisible="1" />
+                <field name="customer" invisible="1" />
+            </xpath>
+            <field name="category_id" position="replace" />
+            <field name="country_id" position="attributes">
+                <attribute name="invisible">True</attribute>
+            </field>
+            <field name="website" position="replace" />
+            <field name="function" position="replace" />
+            <field name="fax" position="replace" />
+            <field name="title" position="replace" />
+            <xpath expr="//page[@name='sales_purchases']" position="replace" />
+        </field>
+    </record>
+
+</odoo>
