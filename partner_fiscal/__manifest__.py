@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'AFIP Partner Extension',
+    'name': 'TMC AFIP Partner Extension',
     'summary': 'Add fiscal information to partner.',
     'version': '10.0.1.0.0',
     'category': 'Contacts',
