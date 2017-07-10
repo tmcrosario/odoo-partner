@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Municipal Partner Extension',
+    'name': 'TMC Municipal Partner Extension',
     'summary': 'Add municipal taxes information to partner.',
     'version': '10.0.1.0.0',
     'category': 'Contacts',

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Partner Customizations for TMC Rosario',
+    'name': 'TMC Partner Customizations',
     'summary': 'Add or hide some information related to partner.',
     'version': '10.0.1.0.0',
     'category': 'Contacts',
