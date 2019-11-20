@@ -1,8 +1,14 @@
 # TMC Partner
+
 Odoo Partner and Contact related addons.
 
-## Translation Status
-[![Transifex Status](https://www.transifex.com/tmcrosario/partner-10/)](https://www.transifex.com/tmcrosario/partner-10/)
+## Available addons
+
+addon | version | summary
+--- | --- | ---
+[partner_fiscal](partner_fiscal/) | 13.0.1.0.0 | Addon for adding fiscal information to partner
+[partner_municipal](partner_municipal/) | 13.0.1.0.0 | Addon for adding municipal taxes information to partner
+[partner_tmc](partner_tmc/) | 13.0.1.0.0 | Addon for adding or hiding some information related to partner
 
 ## License
 
@@ -14,4 +20,4 @@ You should have received a copy of the GNU Affero General Public License along w
 
 ----
 
-<img alt="TMC Rosario" src="http://www.tmcrosario.gov.ar/images/tmc_nuevo.png"/>
+<img src="https://www.tmcrosario.gob.ar/images/tmc_nuevo.png"/>
