@@ -17,6 +17,8 @@
                    position="attributes">
                 <attribute name="invisible">True</attribute>
             </field>
+            <field name="vat"
+                   position="replace" />
             <field name="website"
                    position="replace" />
             <field name="function"
