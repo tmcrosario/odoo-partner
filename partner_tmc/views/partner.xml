@@ -11,13 +11,6 @@
         <field name="priority">99</field>
         <field name="arch"
                type="xml">
-            <xpath expr="//field[@name='is_company']"
-                   position="after">
-                <field name="supplier"
-                       invisible="1" />
-                <field name="customer"
-                       invisible="1" />
-            </xpath>
             <field name="category_id"
                    position="replace" />
             <field name="country_id"
@@ -28,12 +21,12 @@
                    position="replace" />
             <field name="function"
                    position="replace" />
-            <field name="fax"
-                   position="replace" />
             <field name="title"
                    position="replace" />
-            <xpath expr="//page[@name='sales_purchases']"
-                   position="replace" />
+            <page name="sales_purchases"
+                  position="replace">
+                <field name="user_id" invisible="True"/>
+            </page>
         </field>
     </record>
 

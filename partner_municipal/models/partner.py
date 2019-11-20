@@ -1,4 +1,3 @@
-
 from odoo import models, fields
 
 
@@ -8,7 +7,5 @@ class Partner(models.Model):
 
     merchant = fields.Boolean()
 
-    drei_ids = fields.One2many(
-        comodel_name='municipal.drei',
-        inverse_name='partner_id'
-    )
+    drei_ids = fields.One2many(comodel_name='municipal.drei',
+                               inverse_name='partner_id')
