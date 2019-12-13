@@ -1,66 +1,62 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * partner_fiscal
-# 
-# Translators:
-# Liso <lisandrogallo@tmcrosario.gov.ar>, 2017
+# 	* partner_fiscal
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 13:15+0000\n"
-"PO-Revision-Date: 2017-04-18 13:15+0000\n"
-"Last-Translator: Liso <lisandrogallo@tmcrosario.gov.ar>, 2017\n"
-"Language-Team: Spanish (Argentina) (https://www.transifex.com/tmcrosario/teams/73663/es_AR/)\n"
+"POT-Creation-Date: 2019-12-13 14:04+0000\n"
+"PO-Revision-Date: 2019-12-13 11:06-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es_AR\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: partner_fiscal
-#: model:ir.ui.view,arch_db:partner_fiscal.view_partner_form
+#: model_terms:ir.ui.view,arch_db:partner_fiscal.view_partner_form
 msgid "AFIP"
-msgstr ""
+msgstr "AFIP"
 
 #. module: partner_fiscal
-#: model:ir.model.fields,field_description:partner_fiscal.field_res_partner_cuit
+#: model:ir.model.fields,field_description:partner_fiscal.field_res_partner__cuit
+#: model:ir.model.fields,field_description:partner_fiscal.field_res_users__cuit
 msgid "CUIT"
-msgstr ""
-
-#. module: partner_fiscal
-#: model:ir.model.fields,field_description:partner_fiscal.field_res_partner_fiscal_situation
-msgid "Fiscal situation"
-msgstr "Situación Fiscal"
-
-#. module: partner_fiscal
-#: model:ir.model.fields,help:partner_fiscal.field_res_partner_cuit
-msgid "Format: XX-XXXXXXXX-X"
-msgstr "Formato: XX-XXXXXXXX-X"
-
-#. module: partner_fiscal
-#: code:addons/partner_fiscal/models/partner.py:41
-#, python-format
-msgid "Invalid CUIT"
-msgstr "CUIT Inválido"
-
-#. module: partner_fiscal
-#: selection:res.partner,fiscal_situation:0
-msgid "Monotributista"
-msgstr ""
+msgstr "CUIT"
 
 #. module: partner_fiscal
 #: model:ir.model,name:partner_fiscal.model_res_partner
-msgid "Partner"
-msgstr ""
+msgid "Contact"
+msgstr "Contacto"
 
 #. module: partner_fiscal
-#: selection:res.partner,fiscal_situation:0
-msgid "Responsable Inscripto"
-msgstr ""
+#: model:ir.model.fields,field_description:partner_fiscal.field_res_partner__fiscal_situation
+#: model:ir.model.fields,field_description:partner_fiscal.field_res_users__fiscal_situation
+msgid "Fiscal Situation"
+msgstr "Situación Fiscal"
 
 #. module: partner_fiscal
-#: code:addons/partner_fiscal/models/partner.py:41
+#: model:ir.model.fields,help:partner_fiscal.field_res_partner__cuit
+#: model:ir.model.fields,help:partner_fiscal.field_res_users__cuit
+msgid "Format: XX-XXXXXXXX-X"
+msgstr "Formato: 00-00000000-0"
+
+#. module: partner_fiscal
+#: code:addons/partner_fiscal/models/partner.py:0
 #, python-format
-msgid "Valid format: XX-XXXXXXXX-X"
-msgstr "Formato válido: XX-XXXXXXXX-X"
+msgid "Invalid CUIT. Valid format: XX-XXXXXXXX-X"
+msgstr "CUIT Inválido. Formato Válido: 00-00000000-0"
+
+#. module: partner_fiscal
+#: model:ir.model.fields.selection,name:partner_fiscal.selection__res_partner__fiscal_situation__monotributista
+msgid "Monotributista"
+msgstr "Monotributista"
+
+#. module: partner_fiscal
+#: model:ir.model.fields.selection,name:partner_fiscal.selection__res_partner__fiscal_situation__responsable_inscripto
+msgid "Responsable Inscripto"
+msgstr "Responsable Inscripto"
