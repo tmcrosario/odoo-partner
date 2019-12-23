@@ -29,13 +29,15 @@
                   position="replace">
                 <field name="user_id" invisible="True"/>
             </page>
-            <xpath expr="//page[@name='internal_notes']" position="replace">
+            <xpath expr="//page[@name='internal_notes']"
+                   position="replace">
                 <page name="personal_information_page"
                       string="Personal Information"
                       attrs="{'invisible': [('is_company','=',True)]}">
                     <group name="personal_information_group">
                         <group>
                             <field name="birthdate" />
+                            <field name="dni"/>
                         </group>
                         <group>
                             <field name="civil_status" />
