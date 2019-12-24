@@ -1,0 +1,67 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_tmc
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-23 18:12+0000\n"
+"PO-Revision-Date: 2019-12-23 15:14-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_AR\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. module: partner_tmc
+#: model:ir.model.fields,field_description:partner_tmc.field_res_partner__birthdate
+#: model:ir.model.fields,field_description:partner_tmc.field_res_users__birthdate
+msgid "Birthdate"
+msgstr "Fecha de Nacimiento"
+
+#. module: partner_tmc
+#: model:ir.model.fields,field_description:partner_tmc.field_res_partner__civil_status
+#: model:ir.model.fields,field_description:partner_tmc.field_res_users__civil_status
+msgid "Civil Status"
+msgstr "Estado Civil"
+
+#. module: partner_tmc
+#: model:ir.model,name:partner_tmc.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: partner_tmc
+#: model:ir.model.fields,field_description:partner_tmc.field_res_partner__dni
+#: model:ir.model.fields,field_description:partner_tmc.field_res_users__dni
+msgid "DNI"
+msgstr "DNI"
+
+#. module: partner_tmc
+#: model:ir.model.fields.selection,name:partner_tmc.selection__res_partner__civil_status__divorced
+msgid "Divorced"
+msgstr "Divorciado/a"
+
+#. module: partner_tmc
+#: code:addons/partner_tmc/models/partner.py:0
+#, python-format
+msgid "Invalid DNI."
+msgstr "DNI Inválido."
+
+#. module: partner_tmc
+#: model:ir.model.fields.selection,name:partner_tmc.selection__res_partner__civil_status__married
+msgid "Married"
+msgstr "Casado/a"
+
+#. module: partner_tmc
+#: model_terms:ir.ui.view,arch_db:partner_tmc.view_partner_form
+msgid "Personal Information"
+msgstr "Información Personal"
+
+#. module: partner_tmc
+#: model:ir.model.fields.selection,name:partner_tmc.selection__res_partner__civil_status__single
+msgid "Single"
+msgstr "Soltero/a"
