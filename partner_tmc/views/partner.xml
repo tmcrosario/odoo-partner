@@ -3,41 +3,42 @@
 
     <!-- FORM VIEW -->
     <record id="view_partner_form"
-            model="ir.ui.view">
+        model="ir.ui.view">
         <field name="name">res.partner.form</field>
         <field name="model">res.partner</field>
         <field name="inherit_id"
-               ref="base.view_partner_form" />
+            ref="base.view_partner_form" />
         <field name="priority">99</field>
         <field name="arch"
-               type="xml">
+            type="xml">
             <field name="category_id"
-                   position="replace" />
+                position="replace" />
             <field name="country_id"
-                   position="attributes">
+                position="attributes">
                 <attribute name="invisible">True</attribute>
             </field>
             <field name="vat"
-                   position="replace" />
+                position="replace" />
             <field name="website"
-                   position="replace" />
+                position="replace" />
             <field name="function"
-                   position="replace" />
+                position="replace" />
             <field name="title"
-                   position="replace" />
+                position="replace" />
             <page name="sales_purchases"
-                  position="replace">
-                <field name="user_id" invisible="True"/>
+                position="replace">
+                <field name="user_id"
+                    invisible="True" />
             </page>
             <xpath expr="//page[@name='internal_notes']"
-                   position="replace">
+                position="replace">
                 <page name="personal_information_page"
-                      string="Personal Information"
-                      attrs="{'invisible': [('is_company','=',True)]}">
+                    string="Personal Information"
+                    attrs="{'invisible': [('is_company','=',True)]}">
                     <group name="personal_information_group">
                         <group>
                             <field name="birthdate" />
-                            <field name="dni"/>
+                            <field name="dni" />
                         </group>
                         <group>
                             <field name="civil_status" />

@@ -6,9 +6,8 @@ Partner and Contact related addons.
 
 addon | version | summary
 --- | --- | ---
-[partner_fiscal](partner_fiscal/) | 13.0.1.0.0 | Addon for adding fiscal information to partner
-[partner_municipal](partner_municipal/) | 13.0.1.0.0 | Addon for adding municipal taxes information to partner
-[partner_tmc](partner_tmc/) | 13.0.1.0.0 | Addon for adding or hiding some information related to partner
+[partner_fiscal](partner_fiscal/) | 14.0.1.0.0 | Addon for adding fiscal information to partner
+[partner_tmc](partner_tmc/) | 14.0.1.0.0 | Addon for adding or hiding some information related to partner
 
 ## License
 
@@ -16,7 +15,7 @@ This program is free software: you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 
-You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/.
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 ----
 

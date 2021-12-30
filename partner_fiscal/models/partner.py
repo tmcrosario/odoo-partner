@@ -39,7 +39,7 @@ class Partner(models.Model):
                     _("Invalid CUIT. Valid format: XX-XXXXXXXX-X")
                 )
 
-    cuit = fields.Char(string="CUIT", size=13, help="Format: XX-XXXXXXXX-X")
+    cuit = fields.Char(string="CUIT", help="Format: XX-XXXXXXXX-X")
 
     fiscal_situation = fields.Selection(
         [
