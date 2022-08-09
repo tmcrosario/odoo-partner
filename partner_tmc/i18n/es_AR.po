@@ -4,18 +4,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Odoo Server 14.0-20220727\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-23 18:12+0000\n"
-"PO-Revision-Date: 2019-12-23 15:14-0300\n"
+"POT-Creation-Date: 2022-08-09 13:56+0000\n"
+"PO-Revision-Date: 2022-08-09 10:56-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es_AR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es_AR\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. module: partner_tmc
 #: model:ir.model.fields,field_description:partner_tmc.field_res_partner__birthdate
@@ -38,7 +38,12 @@ msgstr "Contacto"
 #: model:ir.model.fields,field_description:partner_tmc.field_res_partner__dni
 #: model:ir.model.fields,field_description:partner_tmc.field_res_users__dni
 msgid "DNI"
-msgstr "DNI"
+msgstr ""
+
+#. module: partner_tmc
+#: model:ir.model.fields,field_description:partner_tmc.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
 
 #. module: partner_tmc
 #: model:ir.model.fields.selection,name:partner_tmc.selection__res_partner__civil_status__divorced
@@ -46,10 +51,20 @@ msgid "Divorced"
 msgstr "Divorciado/a"
 
 #. module: partner_tmc
+#: model:ir.model.fields,field_description:partner_tmc.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: partner_tmc
 #: code:addons/partner_tmc/models/partner.py:0
 #, python-format
 msgid "Invalid DNI."
 msgstr "DNI Inválido."
+
+#. module: partner_tmc
+#: model:ir.model.fields,field_description:partner_tmc.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
 
 #. module: partner_tmc
 #: model:ir.model.fields.selection,name:partner_tmc.selection__res_partner__civil_status__married
