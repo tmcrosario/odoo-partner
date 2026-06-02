@@ -7,9 +7,7 @@ class Partner(models.Model):
     _name = "res.partner"
     _inherit = "res.partner"
 
-    __check_cuit_re = re.compile(
-        r"([0-9]{2}\-[0-9]{8}\-[0-9]{1})$", re.IGNORECASE
-    )
+    __check_cuit_re = re.compile(r"([0-9]{2}\-[0-9]{8}\-[0-9]{1})$", re.IGNORECASE)
 
     def _validate_cuit(self):
         raw_cuit = self.cuit
@@ -32,9 +30,7 @@ class Partner(models.Model):
     @api.constrains("cuit")
     def _check_cuit(self):
         if self.cuit:
-            if not (
-                self.__check_cuit_re.match(self.cuit) and self._validate_cuit()
-            ):
+            if not (self.__check_cuit_re.match(self.cuit) and self._validate_cuit()):
                 raise exceptions.UserError(
                     _("Invalid CUIT. Valid format: XX-XXXXXXXX-X")
                 )
