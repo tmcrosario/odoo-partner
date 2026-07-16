@@ -14,11 +14,15 @@
             <field name="vat" position="replace" />
             <field name="website" position="replace" />
             <field name="function" position="replace" />
-            <field name="title" position="replace" />
-            <page name="sales_purchases" position="replace">
-                <field name="user_id" invisible="True" />
-            </page>
-            <xpath expr="//page[@name='internal_notes']" position="replace">
+            <field name="user_id" position="attributes">
+                <attribute name="invisible">True</attribute>
+            </field>
+            <!-- 19.0: base.view_partner_form no longer carries the `title` field nor
+                 the `sales_purchases`/`internal_notes` pages (they moved out of base),
+                 so their previous position="replace" directives were removed. user_id
+                 (Salesperson) is hidden directly, and Personal Information is appended
+                 to the notebook instead of replacing the old Internal Notes page. -->
+            <xpath expr="//notebook" position="inside">
                 <page
                     name="personal_information_page"
                     string="Personal Information"
