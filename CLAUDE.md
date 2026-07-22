@@ -38,3 +38,5 @@ assistant memory.
 - When porting someone else's commit (cherry-pick / re-apply), preserve **their**
   authorship with `git commit --author="Name <email>"` and keep a
   `(cherry picked from commit <sha>)` line.
+- Ask the user for confirmation — files to commit plus the proposed message — before
+  creating any commit; amends and cherry-picks included.
