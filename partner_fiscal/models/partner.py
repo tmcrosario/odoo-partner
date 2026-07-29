@@ -29,8 +29,10 @@ class Partner(models.Model):
 
     @api.constrains("cuit")
     def _check_cuit(self):
-        if self.cuit:
-            if not (self.__check_cuit_re.match(self.cuit) and self._validate_cuit()):
+        for record in self:
+            if record.cuit and not (
+                self.__check_cuit_re.match(record.cuit) and record._validate_cuit()
+            ):
                 raise exceptions.UserError(
                     _("Invalid CUIT. Valid format: XX-XXXXXXXX-X")
                 )
