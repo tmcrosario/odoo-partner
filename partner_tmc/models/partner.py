@@ -9,13 +9,10 @@ class Partner(models.Model):
 
     @api.constrains("dni")
     def _check_dni(self):
-        if self.dni:
-            pattern = "^[0-9]{8}$"
-            for partner in self:
-                if re.match(pattern, partner.dni):
-                    return True
-                else:
-                    raise exceptions.ValidationError(_("Invalid DNI."))
+        for partner in self:
+            # fullmatch, not `$`, so a trailing newline cannot slip through
+            if partner.dni and not re.fullmatch(r"[0-9]{8}", partner.dni):
+                raise exceptions.ValidationError(_("Invalid DNI."))
 
     civil_status = fields.Selection(
         [
