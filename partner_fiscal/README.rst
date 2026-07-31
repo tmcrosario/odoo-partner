@@ -1,4 +1,5 @@
 TMC Partner Fiscal
 ==================
 
-Odoo Partner and Contact related addons.
+Adds fiscal information to partners: an Argentine CUIT field with checksum
+validation and a fiscal situation selection.

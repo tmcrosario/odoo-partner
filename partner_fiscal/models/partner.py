@@ -33,7 +33,7 @@ class Partner(models.Model):
             if record.cuit and not (
                 self.__check_cuit_re.match(record.cuit) and record._validate_cuit()
             ):
-                raise exceptions.UserError(
+                raise exceptions.ValidationError(
                     _("Invalid CUIT. Valid format: XX-XXXXXXXX-X")
                 )
 
@@ -43,5 +43,6 @@ class Partner(models.Model):
         [
             ("monotributista", "Monotributista"),
             ("responsable_inscripto", "Responsable Inscripto"),
-        ]
+        ],
+        help="AFIP fiscal category of the partner",
     )

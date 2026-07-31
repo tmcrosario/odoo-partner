@@ -10,5 +10,5 @@
     "data": ["views/partner.xml"],
     "demo": [],
     "installable": True,
-    "application": True,
+    "application": False,
 }
