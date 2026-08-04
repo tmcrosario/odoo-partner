@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- Public-domain fiction (Don Quijote) + sequential test CUITs so it is
+         unmistakably demo data. CUITs still pass the mod-11 check digit. -->
+    <record id="demo_partner_fiscal_quijano" model="res.partner">
+        <field name="name">Alonso Quijano</field>
+        <field name="cuit">27-10000001-1</field>
+        <field name="fiscal_situation">monotributista</field>
+    </record>
+
+    <record id="demo_partner_fiscal_panza" model="res.partner">
+        <field name="name">Sancho Panza</field>
+        <field name="cuit">23-10000002-4</field>
+        <field name="fiscal_situation">monotributista</field>
+    </record>
+
+    <record id="demo_partner_fiscal_toboso" model="res.partner">
+        <field name="name">Dulcinea del Toboso</field>
+        <field name="cuit">20-10000003-3</field>
+    </record>
+
+    <record id="demo_partner_fiscal_carrasco" model="res.partner">
+        <field name="name">Sansón Carrasco</field>
+        <field name="cuit">27-10000004-6</field>
+        <field name="fiscal_situation">monotributista</field>
+    </record>
+
+    <record id="demo_partner_fiscal_pasamonte" model="res.partner">
+        <field name="name">Ginés de Pasamonte</field>
+        <field name="cuit">23-10000005-9</field>
+        <field name="fiscal_situation">responsable_inscripto</field>
+    </record>
+
+    <record id="demo_partner_fiscal_cardenio" model="res.partner">
+        <field name="name">Cardenio Fernández</field>
+        <field name="cuit">20-10000006-8</field>
+    </record>
+
+    <record id="demo_partner_fiscal_molinos" model="res.partner">
+        <field name="name">Molinos de La Mancha S.A.</field>
+        <field name="is_company" eval="True" />
+        <field name="cuit">30-70000001-6</field>
+        <field name="fiscal_situation">responsable_inscripto</field>
+    </record>
+
+    <record id="demo_partner_fiscal_insula" model="res.partner">
+        <field name="name">Ínsula Barataria S.R.L.</field>
+        <field name="is_company" eval="True" />
+        <field name="cuit">30-70000002-4</field>
+        <field name="fiscal_situation">responsable_inscripto</field>
+    </record>
+
+    <record id="demo_partner_fiscal_toboso_ed" model="res.partner">
+        <field name="name">Ediciones El Toboso S.A.</field>
+        <field name="is_company" eval="True" />
+        <field name="cuit">30-70000003-2</field>
+        <field name="fiscal_situation">responsable_inscripto</field>
+    </record>
+
+    <record id="demo_partner_fiscal_palomeque" model="res.partner">
+        <field name="name">Posada de Palomeque S.A.</field>
+        <field name="is_company" eval="True" />
+        <field name="cuit">30-70000004-0</field>
+    </record>
+</odoo>
