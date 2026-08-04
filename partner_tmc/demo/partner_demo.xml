@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- Public-domain fiction (Spanish classics) + sequential test DNIs so it
+         is unmistakably demo data. Every DNI is 8 digits (_check_dni). -->
+    <record id="demo_partner_tmc_tormes" model="res.partner">
+        <field name="firstname">Lázaro</field>
+        <field name="lastname">de Tormes</field>
+        <field name="dni">10000001</field>
+        <field name="civil_status">single</field>
+        <field name="birthdate">1983-03-12</field>
+    </record>
+
+    <record id="demo_partner_tmc_pleberio" model="res.partner">
+        <field name="firstname">Melibea</field>
+        <field name="lastname">Pleberio</field>
+        <field name="dni">10000002</field>
+        <field name="civil_status">married</field>
+        <field name="birthdate">1980-07-22</field>
+    </record>
+
+    <record id="demo_partner_tmc_alarcon" model="res.partner">
+        <field name="firstname">Calisto</field>
+        <field name="lastname">Alarcón</field>
+        <field name="dni">10000003</field>
+        <field name="civil_status">single</field>
+        <field name="birthdate">1989-11-04</field>
+    </record>
+
+    <record id="demo_partner_tmc_fierro" model="res.partner">
+        <field name="firstname">Martín</field>
+        <field name="lastname">Fierro</field>
+        <field name="dni">10000004</field>
+        <field name="civil_status">divorced</field>
+        <field name="birthdate">1972-05-17</field>
+    </record>
+
+    <record id="demo_partner_tmc_sombra" model="res.partner">
+        <field name="firstname">Segundo</field>
+        <field name="lastname">Sombra</field>
+        <field name="dni">10000005</field>
+        <field name="civil_status">single</field>
+        <field name="birthdate">1994-01-28</field>
+    </record>
+
+    <record id="demo_partner_tmc_rojas" model="res.partner">
+        <field name="firstname">Celestina</field>
+        <field name="lastname">Rojas</field>
+        <field name="dni">10000006</field>
+        <field name="civil_status">married</field>
+        <field name="birthdate">1963-09-09</field>
+    </record>
+
+    <record id="demo_partner_tmc_vega" model="res.partner">
+        <field name="firstname">Sempronio</field>
+        <field name="lastname">Vega</field>
+        <field name="dni">10000007</field>
+        <field name="civil_status">married</field>
+        <field name="birthdate">1982-06-17</field>
+    </record>
+
+    <record id="demo_partner_tmc_osorio" model="res.partner">
+        <field name="firstname">Dorotea</field>
+        <field name="lastname">Osorio</field>
+        <field name="dni">10000008</field>
+        <field name="civil_status">divorced</field>
+        <field name="birthdate">1969-12-30</field>
+    </record>
+
+    <record id="demo_partner_tmc_morisco" model="res.partner">
+        <field name="firstname">Ricote</field>
+        <field name="lastname">Morisco</field>
+        <field name="dni">10000009</field>
+        <field name="civil_status">single</field>
+        <field name="birthdate">1990-08-05</field>
+    </record>
+
+    <record id="demo_partner_tmc_grisostomo" model="res.partner">
+        <field name="firstname">Marcela</field>
+        <field name="lastname">Grisóstomo</field>
+        <field name="dni">10000010</field>
+        <field name="civil_status">married</field>
+        <field name="birthdate">1966-02-14</field>
+    </record>
+</odoo>
