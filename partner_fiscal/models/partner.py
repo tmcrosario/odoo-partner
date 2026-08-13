@@ -1,6 +1,6 @@
 import re
 
-from odoo import _, api, exceptions, fields, models
+from odoo import api, exceptions, fields, models
 
 
 class Partner(models.Model):
@@ -34,7 +34,7 @@ class Partner(models.Model):
                 self.__check_cuit_re.match(record.cuit) and record._validate_cuit()
             ):
                 raise exceptions.ValidationError(
-                    _("Invalid CUIT. Valid format: XX-XXXXXXXX-X")
+                    self.env._("Invalid CUIT. Valid format: XX-XXXXXXXX-X")
                 )
 
     cuit = fields.Char(string="CUIT", help="Format: XX-XXXXXXXX-X")

@@ -1,6 +1,6 @@
 import re
 
-from odoo import _, api, exceptions, fields, models
+from odoo import api, exceptions, fields, models
 
 
 class Partner(models.Model):
@@ -12,7 +12,7 @@ class Partner(models.Model):
         for partner in self:
             # fullmatch, not `$`, so a trailing newline cannot slip through
             if partner.dni and not re.fullmatch(r"[0-9]{8}", partner.dni):
-                raise exceptions.ValidationError(_("Invalid DNI."))
+                raise exceptions.ValidationError(self.env._("Invalid DNI."))
 
     civil_status = fields.Selection(
         [

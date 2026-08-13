@@ -1,5 +1,4 @@
 from odoo.exceptions import UserError
-
 from odoo.tests import common
 
 
