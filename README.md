@@ -1,22 +1,23 @@
 # TMC Partner
 
-Partner and Contact related addons.
+![Odoo 19.0](https://img.shields.io/badge/Odoo-19.0-714B67)
+[![Licencia: AGPL-3](https://img.shields.io/badge/licencia-AGPL--3-blue.svg)](LICENSE)
 
-## Available addons
+Addons de contactos (partners) del Tribunal Municipal de Cuentas de Rosario.
 
-addon | version | summary
---- | --- | ---
-[partner_fiscal](partner_fiscal/) | 14.0.1.0.0 | Addon for adding fiscal information to partner
-[partner_tmc](partner_tmc/) | 14.0.1.0.0 | Addon for adding or hiding some information related to partner
+## Módulos
 
-## License
+| Módulo                              | Versión    | Descripción                                                     |
+| ----------------------------------- | ---------- | --------------------------------------------------------------- |
+| [`partner_fiscal`](partner_fiscal/) | 19.0.1.0.1 | Agrega información fiscal al contacto (CUIT y situación fiscal) |
+| [`partner_tmc`](partner_tmc/)       | 19.0.1.0.1 | Agrega u oculta información del contacto                        |
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+## Instalación
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+Dependencia OCA: [`partner-contact`](https://github.com/OCA/partner-contact) (`partner_firstname`).
 
-You should have received a copy of the GNU Affero General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
+Agregar a la ruta de addons, actualizar aplicaciones e instalar «TMC Partner Customizations» (instala también «TMC Partner Fiscal Information Extension»).
 
-----
+## Licencia
 
-<img align="left" src="https://iili.io/2ARo1R.png"/>
+[AGPL-3](LICENSE). Autor: Tribunal Municipal de Cuentas - Municipalidad de Rosario (<https://www.tmcrosario.gob.ar>).
