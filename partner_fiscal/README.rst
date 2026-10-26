@@ -1,5 +1,6 @@
+==================
 TMC Partner Fiscal
 ==================
 
-Adds fiscal information to partners: an Argentine CUIT field with checksum
-validation and a fiscal situation selection.
+Agrega información fiscal a los contactos: campo CUIT con validación del dígito
+verificador y situación fiscal.
